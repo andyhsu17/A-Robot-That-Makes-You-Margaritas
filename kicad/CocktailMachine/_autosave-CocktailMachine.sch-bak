@@ -1,0 +1,156 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title "Control Board"
+Date "2021-08-15"
+Rev "00"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP32-WROOM-32 U?
+U 1 1 61306447
+P 3200 3000
+F 0 "U?" H 3600 1600 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 2700 4350 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 3200 1500 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2900 3050 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6131066E
+P 4150 1800
+F 0 "R?" V 4150 2050 50  0000 C CNN
+F 1 "R" V 4150 1600 50  0000 C CNN
+F 2 "" V 4080 1800 50  0001 C CNN
+F 3 "~" H 4150 1800 50  0001 C CNN
+	1    4150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61313297
+P 4150 1900
+F 0 "R?" V 4150 2150 50  0000 C CNN
+F 1 "R" V 4150 1700 50  0000 C CNN
+F 2 "" V 4080 1900 50  0001 C CNN
+F 3 "~" H 4150 1900 50  0001 C CNN
+	1    4150 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6131380D
+P 4150 2000
+F 0 "R?" V 4150 2250 50  0000 C CNN
+F 1 "R" V 4150 1800 50  0000 C CNN
+F 2 "" V 4080 2000 50  0001 C CNN
+F 3 "~" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61313AEF
+P 4150 2100
+F 0 "R?" V 4150 2350 50  0000 C CNN
+F 1 "R" V 4150 1900 50  0000 C CNN
+F 2 "" V 4080 2100 50  0001 C CNN
+F 3 "~" H 4150 2100 50  0001 C CNN
+	1    4150 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61313EB2
+P 4150 2200
+F 0 "R?" V 4150 2450 50  0000 C CNN
+F 1 "R" V 4150 2000 50  0000 C CNN
+F 2 "" V 4080 2200 50  0001 C CNN
+F 3 "~" H 4150 2200 50  0001 C CNN
+	1    4150 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613141E1
+P 4150 2300
+F 0 "R?" V 4150 2550 50  0000 C CNN
+F 1 "R" V 4150 2100 50  0000 C CNN
+F 2 "" V 4080 2300 50  0001 C CNN
+F 3 "~" H 4150 2300 50  0001 C CNN
+	1    4150 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613147FC
+P 4150 2500
+F 0 "R?" V 4150 2750 50  0000 C CNN
+F 1 "R" V 4150 2300 50  0000 C CNN
+F 2 "" V 4080 2500 50  0001 C CNN
+F 3 "~" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613144A1
+P 4150 2400
+F 0 "R?" V 4150 2650 50  0000 C CNN
+F 1 "R" V 4150 2200 50  0000 C CNN
+F 2 "" V 4080 2400 50  0001 C CNN
+F 3 "~" H 4150 2400 50  0001 C CNN
+	1    4150 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613D4D77
+P 4150 2600
+F 0 "R?" V 4150 2850 50  0000 C CNN
+F 1 "R" V 4150 2400 50  0000 C CNN
+F 2 "" V 4080 2600 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613D54B5
+P 4150 2700
+F 0 "R?" V 4150 2950 50  0000 C CNN
+F 1 "R" V 4150 2500 50  0000 C CNN
+F 2 "" V 4080 2700 50  0001 C CNN
+F 3 "~" H 4150 2700 50  0001 C CNN
+	1    4150 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L CocktailMachine:TC1602A LCD?
+U 1 1 613D7131
+P 9200 4150
+F 0 "LCD?" H 9450 3700 50  0000 C CNN
+F 1 "TC1602A" H 9100 4600 50  0000 C CNN
+F 2 "" H 9200 4550 50  0001 C CNN
+F 3 "" H 9200 4550 50  0001 C CNN
+	1    9200 4150
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9550 1650 1450 1350
+U 613F71EE
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "5V" B L 9550 1800 50 
+F3 "12V" B L 9550 2000 50 
+$EndSheet
+$EndSCHEMATC

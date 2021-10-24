@@ -266,7 +266,7 @@ Wire Wire Line
 	9800 4650 9800 4700
 Text Notes 2200 4850 0    118  ~ 0
 Debug LEDs\n
-Text Notes 4850 950  0    118  ~ 0
+Text Notes 4050 950  0    118  ~ 0
 Load Cell 3.3mV to 3.3V\n\n
 Text Notes 4550 6150 0    118  ~ 0
 Selection Button\nInternal Pull Up Active Low
@@ -614,21 +614,21 @@ Wire Wire Line
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J?
 U 1 1 616B5776
-P 4550 1350
-F 0 "J?" V 4350 1200 50  0000 C CNN
-F 1 "0022232041" V 4450 1100 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 4750 1550 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 4750 1650 60  0001 L CNN
-F 4 "WM4202-ND" H 4750 1750 60  0001 L CNN "Digi-Key_PN"
-F 5 "0022232041" H 4750 1850 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 4750 1950 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 4750 2050 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 4750 2150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 4750 2250 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 4POS 2.54MM" H 4750 2350 60  0001 L CNN "Description"
-F 11 "Molex" H 4750 2450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4750 2550 60  0001 L CNN "Status"
-	1    4550 1350
+P 4300 1300
+F 0 "J?" V 4100 1150 50  0000 C CNN
+F 1 "0022232041" V 4200 1050 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 4500 1500 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 4500 1600 60  0001 L CNN
+F 4 "WM4202-ND" H 4500 1700 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232041" H 4500 1800 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4500 1900 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 4500 2000 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 4500 2100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 4500 2200 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2.54MM" H 4500 2300 60  0001 L CNN "Description"
+F 11 "Molex" H 4500 2400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4500 2500 60  0001 L CNN "Status"
+	1    4300 1300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -643,43 +643,43 @@ F 3 "~" H 6000 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1650 4650 1650
+	4500 1600 4400 1600
 Wire Wire Line
-	4750 1550 4650 1550
+	4500 1500 4400 1500
 Wire Wire Line
-	4750 1450 4650 1450
-Text Label 4750 1550 0    51   ~ 0
+	4500 1400 4400 1400
+Text Label 4500 1500 0    51   ~ 0
 SENSE+
-Text Label 4750 1650 0    51   ~ 0
+Text Label 4500 1600 0    51   ~ 0
 SENSE-
 $Comp
 L power:+3.3V #PWR?
 U 1 1 616D11DD
-P 4700 1300
-F 0 "#PWR?" H 4700 1150 50  0001 C CNN
-F 1 "+3.3V" H 4715 1473 50  0000 C CNN
-F 2 "" H 4700 1300 50  0001 C CNN
-F 3 "" H 4700 1300 50  0001 C CNN
-	1    4700 1300
+P 4450 1250
+F 0 "#PWR?" H 4450 1100 50  0001 C CNN
+F 1 "+3.3V" H 4465 1423 50  0000 C CNN
+F 2 "" H 4450 1250 50  0001 C CNN
+F 3 "" H 4450 1250 50  0001 C CNN
+	1    4450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 616D157E
-P 4750 1400
-F 0 "#PWR?" H 4750 1150 50  0001 C CNN
-F 1 "GND" V 4755 1272 50  0000 R CNN
-F 2 "" H 4750 1400 50  0001 C CNN
-F 3 "" H 4750 1400 50  0001 C CNN
-	1    4750 1400
+P 4500 1350
+F 0 "#PWR?" H 4500 1100 50  0001 C CNN
+F 1 "GND" V 4505 1222 50  0000 R CNN
+F 2 "" H 4500 1350 50  0001 C CNN
+F 3 "" H 4500 1350 50  0001 C CNN
+	1    4500 1350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 1300 4700 1350
+	4450 1250 4450 1300
 Wire Wire Line
-	4700 1350 4650 1350
+	4450 1300 4400 1300
 Wire Wire Line
-	4750 1450 4750 1400
+	4500 1400 4500 1350
 Text Label 5600 1400 2    51   ~ 0
 SENSE+
 Text Label 5600 2200 2    51   ~ 0

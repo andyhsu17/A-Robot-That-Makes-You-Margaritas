@@ -1255,11 +1255,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2900 9600 2950
 Connection ~ 9600 2950
-NoConn ~ 2700 1600
-NoConn ~ 2700 1800
 NoConn ~ 2700 2000
-NoConn ~ 2700 2500
-NoConn ~ 2700 2600
 NoConn ~ 2700 3000
 Wire Wire Line
 	4850 4400 4950 4400
@@ -1515,4 +1511,56 @@ Text Notes 6800 1750 0    102  ~ 0
 r2
 Text Notes 5450 2950 0    102  ~ 0
 r2
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J?
+U 1 1 61AF6D3E
+P 4100 2350
+F 0 "J?" V 3900 2200 50  0000 C CNN
+F 1 "0022232041" V 4000 2100 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 4300 2550 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 4300 2650 60  0001 L CNN
+F 4 "WM4202-ND" H 4300 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232041" H 4300 2850 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4300 2950 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 4300 3050 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 4300 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 4300 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2.54MM" H 4300 3350 60  0001 L CNN "Description"
+F 11 "Molex" H 4300 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4300 3550 60  0001 L CNN "Status"
+	1    4100 2350
+	0    1    1    0   
+$EndComp
+Text Label 2750 2600 0    51   ~ 0
+TEST_OUTPUT_3
+Text Label 2750 2500 0    51   ~ 0
+TEST_OUTPUT_2
+Wire Wire Line
+	2750 2500 2700 2500
+Wire Wire Line
+	2700 2600 2750 2600
+Text Label 2750 1800 0    51   ~ 0
+TEST_OUTPUT_1
+Text Label 2750 1600 0    51   ~ 0
+TEST_OUTPUT_0
+Wire Wire Line
+	2750 1600 2700 1600
+Wire Wire Line
+	2700 1800 2750 1800
+Text Label 4250 2650 0    51   ~ 0
+TEST_OUTPUT_3
+Text Label 4250 2550 0    51   ~ 0
+TEST_OUTPUT_2
+Text Label 4250 2350 0    51   ~ 0
+TEST_OUTPUT_0
+Text Label 4250 2450 0    51   ~ 0
+TEST_OUTPUT_1
+Wire Wire Line
+	4250 2350 4200 2350
+Wire Wire Line
+	4250 2450 4200 2450
+Wire Wire Line
+	4250 2550 4200 2550
+Wire Wire Line
+	4200 2650 4250 2650
 $EndSCHEMATC

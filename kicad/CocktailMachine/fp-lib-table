@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name barrel_jack)(type KiCad)(uri ${KIPRJMOD}/ul_MJ-180PH/KiCAD/2021-11-29_19-39-02/footprints.pretty)(options "")(descr ""))
+  (lib (name buck_lt)(type KiCad)(uri "/Users/andyhsu/Documents/Youtube/CocktailMachine/kicad/CocktailMachine/ul_LT1578CS8-PBF 12.43.45 PM/KiCAD/2021-09-11_19-41-31/footprints.pretty")(options "")(descr ""))
 )
